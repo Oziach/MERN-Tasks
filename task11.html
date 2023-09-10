@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        #woman{
+            width: 200px;
+            display: block;
+            margin:0 auto;
+        }
+
+        .loginContent{
+            width: 400px;
+            padding: 8px;
+            padding-left: 0px;
+            font-weight: bold;
+            height: 30px;
+        }
+
+        #loginButton{
+            background-color: green;
+            color:white;
+            text-align: center;
+
+            width: 400px;
+            border-style: none;
+            padding: 8px;
+            height: 30px;
+        }
+
+        .grayBox{
+            background-color: gainsboro;
+            display: block;
+            width: 400px;
+            height: 50px;
+            margin:0 auto;
+        }
+
+        #cancel{
+            background-color: orangered;
+            padding: 8px;
+            width:75px;
+            border-style: none;
+            border-radius: 5px;
+            margin-top: 12px;
+            color: white;
+            text-align: center;;
+        }
+
+        #forgotPassword{
+            margin-left: 200px;
+            color: black;
+            text-decoration: none;
+        }
+
+        form{
+            margin:0 auto;
+            width:max-content;
+        }
+
+        .container{
+            margin-top:50px;
+        }
+
+    </style>
+</head>
+<body>  
+    
+<div class="container">
+    <img id="woman" src="./images/vectorWomanProfile.jpg" alt="Couldn't load iamge">
+    
+    <div>
+        <form>
+            <label class="loginContent" for="username">Username</label>
+            <br>
+            <input class="loginContent" type="text" id="username" placeholder="Enter Username">
+            <br><br>
+            <label class="loginContent" for="username">Password</label>
+            <br> 
+            <input class="loginContent" type="password" placeholder="Enter Password" id="password">
+            <br><br>
+    
+            <button type="submit" id="loginButton">Login</button>
+            <br>
+            <input type="checkbox" id="rememberMe">
+            <span id="rememberMeText">Remember me</span>    
+        </form>
+        <div class="grayBox">
+            <button type="button" id="cancel">Cancel</button>
+            <a href id="forgotPassword">Forgot Password?</a>
+        </div>   
+    </div>      
+</div> 
+</body>
+</html>

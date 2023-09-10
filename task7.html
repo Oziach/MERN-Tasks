@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        ul{
+            width: 190px;
+            border: 2px solid black;
+            padding: 10px 0px 5px 5px;
+        }
+        
+        #verticalNav a{
+            display: block;
+            width: 150px;
+            background-color:aqua;
+            padding: 8px 16px;
+            text-decoration: none;
+            font-size:x-large;
+            font-weight:bold   
+        }
+
+        #verticalNav a:hover{
+            background-color:aliceblue
+        }
+
+        p{
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+        table{
+            border-spacing: 10px;
+            border-width: 2px;;
+        }
+
+        td{
+            border-collapse: collapse;
+        }
+
+        td{
+            display:inline-block;
+            width: 75px;
+            height: 30px;  
+            padding-top: 10px;
+        }
+
+        td:hover{
+            background-color: aliceblue;
+        }
+
+        tr{
+            text-align: center;
+            width: 75px;
+            height: 30px;
+            background-color: gainsboro;
+        }
+
+
+        table a{
+            text-decoration: none;
+            font-size: large;   
+        }
+
+    </style>
+</head>
+<body>
+
+    <span style="font-size: large;"> <b> Vertical Navigation Bar </b></span><br>
+    <ul id="verticalNav" type="none">
+        <li> <a href="#" style="background-color: orange; color: white;" > Home </a> </li>
+        <li> <a href="#"> Java</a> </li>
+        <li> <a href="#"> CSS </a> </li>
+        <li> <a href="#"> Bootstrap </a> </li>
+    </ul>
+    <br>
+
+    <p> Horizontal Navigation Bar </p>
+    <table border>
+        <tr>
+            <td style="background-color: gray;"><a href="#">Home</a></td>
+            <td><a href="#">Java</a></td>
+            <td><a href="#">HTML</a></td>
+            <td><a href="#">CSS</a></td>
+        </tr>
+    </table>
+</body>
+</html>
